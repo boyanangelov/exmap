@@ -10,4 +10,4 @@ X_test, test_coords, explainer, model = Exmap.train_model(features=X, target=y, 
 explanations = Exmap.compute_lime_explanations(test_data=X_test, explainer=explainer, model=model, targets_limit=targets_limit, num_features=15, task_type="clf")
 Exmap.generate_lime_plots(explanations_list=explanations, image_prefix="voting")
 m = Exmap.make_map(test_coords=test_coords, targets_number=targets_limit)
-m.save('ymetry_usa.html')
+m.save('voting_map.html')
