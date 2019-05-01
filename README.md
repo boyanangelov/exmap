@@ -1,5 +1,7 @@
 # Exmap
 
+[![DOI](https://zenodo.org/badge/179990140.svg)](https://zenodo.org/badge/latestdoi/179990140)
+
 ## Description
 
 Exmap is a Python package with allows users to generate maps based on an interpretable machine learning prediction. The current version of the package supports interpretation of the popular gradient boosting algorithm implementation [XGBoost](https://xgboost.readthedocs.io).
